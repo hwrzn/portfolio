@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     
-    <link rel="stylesheet" href="style1.css">
-    <title>Hubert Wrazen</title>
+    <script src="https://kit.fontawesome.com/6c61067272.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio Hubert Wrazen</title>
+
 </head>
 <body>
     
@@ -22,23 +25,17 @@
             <ul>
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Moi</a></li>
-                <li><a href="#">Projets</a></li>
+                <li><a href="#projects">Projets</a></li>
                 <li><a href="#">Compétences</a></li>
-                <li><a href="#">Me contacter</a></li>
+                <li><a href="pages/contact.html">Me contacter</a></li>
             </ul>
-            <a href="#" class="btn">Télécharger mon CV</a>
+            <a class="btn-cv" href="src/cv.pdf" download="CV Hubert Wrazen">Télécharger mon cv</a>
         </nav>
 
         <div class="content">
             <h4>Bonjour, je m'appelle</h4>
             <h1>Hubert Wrazen</h1>
             <h3>Étudiant en deuxième année de BTS SIO.</h3>
-            <div class="newsletter">
-                <form>
-                    <input type="email" name="email" id="email" placeholder="Entrez votre email">
-                    <input type="submit" name="submit" value="C'est parti !">
-                </form>
-            </div>
         </div>
 
     </div>
@@ -49,14 +46,13 @@
             <div class="about-text">
                 <h2>À propos de moi</h2>
                 <h5>Étudiant en deuxième année de BTS SIO.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere blanditiis dignissimos cum ut, alias doloribus minus? Mollitia obcaecati animi facilis repudiandae consequuntur consectetur dolorum, omnis itaque. Repellendus, itaque autem.
-                Eum nisi, eaque consequatur maiores laboriosam esse exercitationem? Dolor eligendi id est ullam, placeat nobis mollitia animi optio blanditiis ab. Illum, beatae! Nostrum, recusandae molestias quas quibusdam quisquam tempore voluptatibus!</p>
-                <button>Let's talk !</button>
+                <p>Je m'appelle Hubert Wrazen, j'ai 19 ans et je me spécialise dans le développement web et la conception de base de données.</p>
+                <button>En savoir plus</button>
             </div>
         </div>
     </section>
 
-    <div class="service">
+    <div id="projects">
         <div class="title">
             <h2>Mes projets</h2>
         </div>
@@ -64,46 +60,42 @@
         <div class="box">
 
             <div class="card">
-                <i class="fa-solid fa-bars"></i>
-                <h5>Développement Web</h5>
-                <div class="pra">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quasi sit corrupti architecto atque totam assumenda qui. Velit deleniti enim blanditiis distinctio perferendis alias veniam nobis ea, aut quibusdam rem.</p>
-                    <p style="text-align: center;">
-                        <a href="#" class="button">Read More</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <i class="fa-regular fa-user"></i>
-                <h5>Développement Web</h5>
-                <div class="pra">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quasi sit corrupti architecto atque totam assumenda qui. Velit deleniti enim blanditiis distinctio perferendis alias veniam nobis ea, aut quibusdam rem.</p>
-                    <p style="text-align: center;">
-                        <a href="#" class="button">Read More</a>
-                </div>
+                <i class="fa-regular fa-bell"></i>
+                <h5>Parking</h5>
+                <a href="parking.html"><img src="img/parking.jpg" alt=""></a>
+                <a href="#" class="button">Découvrir</a>
             </div>
 
             <div class="card">
                 <i class="fa-regular fa-bell"></i>
-                <h5>Développement Web</h5>
-                <div class="pra">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quasi sit corrupti architecto atque totam assumenda qui. Velit deleniti enim blanditiis distinctio perferendis alias veniam nobis ea, aut quibusdam rem.</p>
-                    <p style="text-align: center;">
-                        <a href="#" class="button">Read More</a>
-                </div>
+                <h5>Parking</h5>
+                <a href="parking.html"><img src="img/parking.jpg" alt=""></a>
+                <a href="#" class="button">Découvrir</a>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-bell"></i>
+                <h5>Parking</h5>
+                <a href="parking.html"><img src="img/parking.jpg" alt=""></a>
+                <a href="#" class="button">Découvrir</a>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-bell"></i>
+                <h5>Parking</h5>
+                <a href="parking.html"><img src="img/parking.jpg" alt=""></a>
+                <a href="#" class="button">Découvrir</a>
             </div>
 
         </div>
     </div>
 
     <div class="contact-me">
-        <p>Lorem ipsum dolor sit amet.</p>
-        <a href="#" class="button-two">M'embaucher</a>
+        <p>N'hésitez pas à</p>
+        <a href="#" class="button-two">me contacter</a>
     </div>
 
     <footer>
-        <p>Hubert Wrazen</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat fuga quo debitis obcaecati? Dolore labore placeat veniam provident modi ad!</p>
         <div class="social">
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             <a href="#"><i class="fa-brands fa-github"></i></a>
